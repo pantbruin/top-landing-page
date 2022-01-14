@@ -51,6 +51,7 @@ div.header-logo-text {
 
 .section-2,
 .section-3,
+.section-4,
 .footer {
   padding: 24px 150px 24px 150px;
 }
@@ -91,6 +92,11 @@ div.header-logo-text {
 
 /* Section 3 */
 
+.section-3 {
+  margin-bottom: 100px;
+  margin-top: 25px;
+}
+
 .information-header {
   font-weight: 800;
   font-size: 36px;
@@ -123,4 +129,33 @@ div.header-logo-text {
   text-align: center;
   max-width: 130px;
   color: gray;
+}
+
+/* Section 4 */
+
+.section-4 {
+  padding: 100px 200px 100px 200px;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
+.section-4-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.quotee {
+  align-self: flex-end;
+  font-size: 20px;
+  font-weight: 500;
 }
